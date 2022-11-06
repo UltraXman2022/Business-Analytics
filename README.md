@@ -16,7 +16,6 @@ You've done beautifully in the Practicum course, and you've been offered an inte
 <h3>Step 1. Download the data and prepare it for analysis</h3>
 Store the data on visits, orders, and expenses in variables. Optimize the data for analysis. Make sure each column contains the correct data type.
 
-Download dataset
 
 <h3>Step 2. Make reports and calculate metrics:</h3>
 <b>Product</b>
