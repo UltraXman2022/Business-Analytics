@@ -6,7 +6,7 @@ You've done beautifully in the Practicum course, and you've been offered an inte
 <li>Dump file with all orders for the period</li>
 <li>Marketing expenses statistics</li></ul>
 
-<br><b>You are going to study:</b>
+<b>You are going to study:</b>
 <ul><li>How people use the product</li>
 <li>When they start to buy</li>
 <li>How much money each customer brings</li>
@@ -23,17 +23,20 @@ Download dataset
 <li>How many sessions are there per day? (One user might have more than one session.)</li>
 <li>What is the length of each session?</li>
 <li>What's the user retention rate?</li></ul>
-<br>
-<b>Sales/b>
-When do people start buying? (In KPI analysis, we're usually interested in knowing the time that elapses between registration and conversion — when the user becomes a customer. For example, if registration and the first purchase occur on the same day, the user might fall into category Conversion 0d. If the first purchase happens the next day, it will be Conversion 1d. You can use any approach that lets you compare the conversions of different cohorts, so that you can determine which cohort, or marketing channel, is most effective.)
-How many orders do they make during a given period of time?
-What is the average purchase size?
-How much money do they bring? (LTV)</li></ul>
-Marketing
-How much money was spent? Overall/per source/over time
-How much did customer acquisition from each of the sources cost?
-How worthwhile where the investments? (ROI)
+
+<b>Sales</b>
+<ul><li>When do people start buying? (In KPI analysis, we're usually interested in knowing the time that elapses between registration and conversion — when the user becomes a customer. For example, if registration and the first purchase occur on the same day, the user might fall into category Conversion 0d. If the first purchase happens the next day, it will be Conversion 1d. You can use any approach that lets you compare the conversions of different cohorts, so that you can determine which cohort, or marketing channel, is most effective.)</li>
+<li>How many orders do they make during a given period of time?</li>
+<li>What is the average purchase size?</li>
+<li>How much money do they bring? (LTV)</li></ul>
+
+<b>Marketing</b>
+<ul><li>How much money was spent? Overall/per source/over time</li>
+<li>How much did customer acquisition from each of the sources cost?</li>
+<li>How worthwhile where the investments? (ROI)</li></ul>
+
 Plot graphs to display how these metrics differ for various devices and ad sources and how they change in time.
+  
 Step 3. Write a conclusion: advise marketing experts how much money to invest and where.
 What sources/platforms would you recommend? Back up your choice: what metrics did you focus on? Why? What conclusions did you draw after finding the metric values?
 Format: Complete the task in Jupyter Notebook. Enter the code in code cells and text explanations in markdown cells. Apply formatting and headings.
