@@ -15,9 +15,10 @@ You've done beautifully in the Practicum course, and you've been offered an inte
 <h2>Instructions for completing the project</h2>
 <h3>Step 1. Download the data and prepare it for analysis</h3>
 Store the data on visits, orders, and expenses in variables. Optimize the data for analysis. Make sure each column contains the correct data type.
+
 Download dataset
 
-<h3>Step 2. Make reports and calculate metrics:</h3><br>
+<h3>Step 2. Make reports and calculate metrics:</h3>
 <b>Product</b>
 <ul><li>How many people use it every day, week, and month?</li>
 <li>How many sessions are there per day? (One user might have more than one session.)</li>
@@ -37,22 +38,28 @@ Download dataset
 
 Plot graphs to display how these metrics differ for various devices and ad sources and how they change in time.
   
-Step 3. Write a conclusion: advise marketing experts how much money to invest and where.
+<h3>Step 3. Write a conclusion: advise marketing experts how much money to invest and where</h3>
+
 What sources/platforms would you recommend? Back up your choice: what metrics did you focus on? Why? What conclusions did you draw after finding the metric values?
-Format: Complete the task in Jupyter Notebook. Enter the code in code cells and text explanations in markdown cells. Apply formatting and headings.
-Description of the data
+
+Format: Complete the task in Jupyter Notebook. Enter the code in code cells and text explanations in markdown cells. Apply formatting and headings
+
+<h4>Description of the data</h4>
 The visits table (server logs with data on website visits):
-Uid — user's unique identifier
-Device — user's device
-Start Ts — session start date and time
-End Ts — session end date and time
-Source Id — identifier of the ad source the user came from
-All dates in this table are in YYYY-MM-DD format.
+<ul><li>Uid — user's unique identifier</li>
+<li>Device — user's device</li>
+<li>Start Ts — session start date and time</li>
+<li>End Ts — session end date and time</li>
+<li>Source Id — identifier of the ad source the user came from</li></ul>
+
+All dates in this table are in YYYY-MM-DD format
+
 The orders table (data on orders):
-Uid — unique identifier of the user making an order
-Buy Ts — order date and time
-Revenue — Yandex.Afisha's revenue from the order
+<ul><li>Uid — unique identifier of the user making an order</li>
+<li>Buy Ts — order date and time</li>
+<li>Revenue — Yandex.Afisha's revenue from the order</li></ul>
+
 The costs table (data on marketing expenses):
-source_id — ad source identifier
-dt — date
-costs — expenses on this ad source on this day
+<ul><li>source_id — ad source identifier</li>
+<li>dt — date</li>
+<li>costs — expenses on this ad source on this day</li></ul>
