@@ -18,6 +18,7 @@ Store the data on visits, orders, and expenses in variables. Optimize the data f
 
 
 <h3>Step 2. Make reports and calculate metrics:</h3>
+
 <b>Product</b>
 <ul><li>How many people use it every day, week, and month?</li>
 <li>How many sessions are there per day? (One user might have more than one session.)</li>
